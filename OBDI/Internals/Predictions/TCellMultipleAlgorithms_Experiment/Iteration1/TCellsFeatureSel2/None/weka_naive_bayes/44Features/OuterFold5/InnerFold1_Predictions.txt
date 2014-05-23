@@ -1,0 +1,11 @@
+Instance_ID	Dependent_Variable_Value	Prediction	Teffs_Probability	Tregs_Probability	conventionalTcells_Probability	naiveTcells_Probability
+Instance1	naiveTcells	naiveTcells	0.0	0.0	0.0	1.0
+Instance34	conventionalTcells	conventionalTcells	0.0	0.0	1.0	0.0
+Instance35	Tregs	naiveTcells	0.0	0.0	0.0	1.0
+Instance37	conventionalTcells	naiveTcells	0.0	0.0	0.059	0.941
+Instance58	conventionalTcells	conventionalTcells	0.0	0.0	1.0	0.0
+Instance70	conventionalTcells	conventionalTcells	0.0	0.0	1.0	0.0
+Instance74	conventionalTcells	conventionalTcells	0.0	0.0	1.0	0.0
+Instance83	Teffs	Teffs	1.0	0.0	0.0	0.0
+Instance89	Tregs	conventionalTcells	0.0	0.0	1.0	0.0
+

@@ -1,0 +1,12 @@
+MAIN_OUTPUT_FOLDER = /Users/sharanya/Documents/OBDI/ObDIOutput
+GEO_DATA_LINKS = GSE21158
+GEO_XML_LINKS = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE21nnn/GSE21158/miniml/GSE21158_family.xml.tgz
+OWL_FILE = /Users/sharanya/Documents/sharanyaRaghunath/OBDI/OBDI/ObDISupportFiles/CancerCellLineComparison.owl
+MASTER_INDEX_FILE = /Users/sharanya/Documents/OBDI/ObDISupportFiles/CancerCellMappingFile2.txt
+CONDITION_INDEX_FILE = /Users/sharanya/Documents/OBDI/ObDISupportFiles/CancerCellIlluminaIndexingFile.txt
+GENE_PATTERN_GCT_FILE = /Users/sharanya/Documents/OBDI/ObDIOutput/GSE21158.gct
+GCT_WITH_CONDITIONS = /Users/sharanya/Documents/OBDI/ObDIOutput/CancerCellsIFNa2a.gct
+OPTIONAL_FEATURE_LIST = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/IlluminaMelanomaData/FeatureListIlluminaOnly.txt
+WEKA_ARFF_FILE = /Users/sharanya/Documents/OBDI/ObDIOutput/CancerCellsIFNa2a.arff
+MLFLEX_JAR_FILE = /Users/sharanya/Documents/ML-Flex/mlflex.jar
+MLFLEX_EXPERIMENT_FILE = /Users/sharanya/Documents/OBDI/ObDIOutput/IlluminaMLFlexExpMelanoma.txt

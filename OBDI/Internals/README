@@ -1,0 +1,1 @@
+This directory contains files that are intentionally hidden from most ML-Flex users. The files are necessary for ML-Flex to execute but do not require intervention from most users. This helps maintain simplicity in executing ML-Flex.

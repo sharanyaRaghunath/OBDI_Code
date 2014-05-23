@@ -1,0 +1,218 @@
+Zero Weights processed. Default weights will be used
+..*
+optimization finished, #iter = 123
+nu = 3.1086210817801037E-7
+obj = -8.548099600393219E-6, rho = 1.4058933023562454
+nSV = 7, nBSV = 0
+Total nSV = 7
+..*
+optimization finished, #iter = 113
+nu = 1.5256517804843406E-7
+obj = -4.11872488697259E-6, rho = 0.06803307623105768
+nSV = 7, nBSV = 0
+Total nSV = 7
+..*
+optimization finished, #iter = 118
+nu = 3.1085066507905516E-7
+obj = -8.548098706804483E-6, rho = 1.4056689553801431
+nSV = 7, nBSV = 0
+Total nSV = 7
+..*
+optimization finished, #iter = 140
+nu = 1.254901166150569E-7
+obj = -3.388194553227743E-6, rho = 1.1853010481858348
+nSV = 10, nBSV = 0
+Total nSV = 10
+..*
+optimization finished, #iter = 139
+nu = 3.1659767654585805E-7
+obj = -8.548099762980332E-6, rho = 1.4057233204016366
+nSV = 7, nBSV = 0
+Total nSV = 7
+.*
+optimization finished, #iter = 113
+nu = 2.514055819536122E-7
+obj = -8.548099006664277E-6, rho = -1.4057380231282437
+nSV = 7, nBSV = 0
+...*
+optimization finished, #iter = 83
+nu = 6.155583686656426E-7
+obj = -6.771508671778733E-6, rho = 2.9129798061112417
+nSV = 6, nBSV = 0
+Total nSV = 6
+...*
+optimization finished, #iter = 75
+nu = 2.7142858230218285E-7
+obj = -2.9857285840979547E-6, rho = 2.733950055126806
+nSV = 6, nBSV = 0
+Total nSV = 6
+...*
+optimization finished, #iter = 79
+nu = 5.63275692562004E-7
+obj = -5.915221393391333E-6, rho = 2.8333695804109564
+nSV = 6, nBSV = 0
+Total nSV = 6
+....*
+optimization finished, #iter = 95
+nu = 5.67505257502366E-7
+obj = -6.242212190070823E-6, rho = 2.059853809995849
+nSV = 6, nBSV = 0
+Total nSV = 6
+...*
+optimization finished, #iter = 63
+nu = 6.322055479370949E-7
+obj = -6.637846980567361E-6, rho = 3.0748282479220244
+nSV = 5, nBSV = 0
+Total nSV = 5
+...*
+optimization finished, #iter = 101
+nu = 5.026701802988103E-7
+obj = -6.785926289285218E-6, rho = -2.931739075209716
+nSV = 7, nBSV = 0
+*
+optimization finished, #iter = 10
+nu = 3.844939529341784E-9
+obj = -3.460221390498113E-8, rho = 1.7151878112888652
+nSV = 5, nBSV = 0
+Total nSV = 5
+*
+optimization finished, #iter = 3
+nu = 7.246006426158309E-9
+obj = -6.521405404601664E-8, rho = 1.5698780587704833
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 7.672242098285268E-9
+obj = -6.521405404601664E-8, rho = 1.5698780587704833
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 7.246006426158309E-9
+obj = -6.521405404601664E-8, rho = 1.5698780587704833
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 7.672242352600478E-9
+obj = -6.521405404601634E-8, rho = 1.569878110807927
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 1
+nu = 5.928551141069424E-9
+obj = -6.521405404601577E-8, rho = -1.5698781723054658
+nSV = 2, nBSV = 0
+...*
+optimization finished, #iter = 185
+nu = 1.8571620594598243E-7
+obj = -5.478672013422636E-6, rho = -0.4520042602191679
+nSV = 10, nBSV = 0
+Total nSV = 10
+....*
+optimization finished, #iter = 288
+nu = 2.893837613654814E-7
+obj = -8.391904346702474E-6, rho = -1.5309977993630133
+nSV = 12, nBSV = 0
+Total nSV = 12
+....*
+optimization finished, #iter = 283
+nu = 2.8425441104135515E-7
+obj = -8.385492274019864E-6, rho = -1.5265493625297482
+nSV = 11, nBSV = 0
+Total nSV = 11
+..*
+optimization finished, #iter = 154
+nu = 2.0640150110754093E-7
+obj = -5.985795690866863E-6, rho = -2.247437926658525
+nSV = 10, nBSV = 0
+Total nSV = 10
+...*
+optimization finished, #iter = 226
+nu = 2.5510242764941017E-7
+obj = -7.398322157103229E-6, rho = -0.9913123910186231
+nSV = 10, nBSV = 0
+Total nSV = 10
+...*
+optimization finished, #iter = 288
+nu = 2.29929534807206E-7
+obj = -8.391905148921874E-6, rho = -1.530629136969167
+nSV = 12, nBSV = 0
+..*
+optimization finished, #iter = 126
+nu = 2.2969405784121275E-8
+obj = -6.315999433974468E-7, rho = -2.3881823100920148
+nSV = 8, nBSV = 0
+Total nSV = 8
+....*
+optimization finished, #iter = 265
+nu = 2.3541386480963796E-8
+obj = -6.356782822485377E-7, rho = 2.2652172042245646
+nSV = 10, nBSV = 0
+Total nSV = 10
+.*
+optimization finished, #iter = 97
+nu = 2.0293123681097368E-8
+obj = -5.580696371847455E-7, rho = 2.555402950174182
+nSV = 8, nBSV = 0
+Total nSV = 8
+..*
+optimization finished, #iter = 114
+nu = 2.320045392737189E-8
+obj = -6.264835032440742E-7, rho = 2.31287655315575
+nSV = 8, nBSV = 0
+Total nSV = 8
+.*
+optimization finished, #iter = 66
+nu = 2.0482026685888578E-8
+obj = -5.531182018281929E-7, rho = 2.9498860952951778
+nSV = 6, nBSV = 0
+Total nSV = 6
+..*
+optimization finished, #iter = 184
+nu = 1.916140833033874E-8
+obj = -6.513710657368396E-7, rho = -2.415832487613507
+nSV = 10, nBSV = 0
+.......*
+optimization finished, #iter = 172
+nu = 1.8801781875073998E-7
+obj = -2.0680966655610105E-6, rho = -3.810879721071083
+nSV = 10, nBSV = 0
+Total nSV = 10
+....*
+optimization finished, #iter = 88
+nu = 1.794718843985205E-7
+obj = -1.974620639131898E-6, rho = 3.1782229028505955
+nSV = 7, nBSV = 0
+Total nSV = 7
+.........*
+optimization finished, #iter = 189
+nu = 1.4913751147718802E-7
+obj = -1.5661056457223969E-6, rho = 4.684530274102273
+nSV = 9, nBSV = 0
+Total nSV = 9
+..........*
+optimization finished, #iter = 232
+nu = 1.1107712239028033E-7
+obj = -1.2220167943472408E-6, rho = 3.6576997474252426
+nSV = 8, nBSV = 0
+Total nSV = 8
+...........*
+optimization finished, #iter = 236
+nu = 1.73226927740196E-7
+obj = -1.8190051182468567E-6, rho = 3.5001239927666665
+nSV = 10, nBSV = 0
+Total nSV = 10
+..........*
+optimization finished, #iter = 271
+nu = 1.5319674345571247E-7
+obj = -2.0680968066310334E-6, rho = -3.8099782733034893
+nSV = 10, nBSV = 0
+Total nSV = 33
+
+
+=== Predictions on test data ===
+
+ inst#     actual  predicted error distribution
+     1 3:conventi 3:conventi       0.037,0.062,*0.896,0.005

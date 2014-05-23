@@ -1,0 +1,114 @@
+Zero Weights processed. Default weights will be used
+.*
+optimization finished, #iter = 10
+nu = 2.8177833665466865E-5
+obj = -1.1271733343075612E-4, rho = -0.48382585577304127
+nSV = 3, nBSV = 0
+Total nSV = 3
+.*
+optimization finished, #iter = 10
+nu = 3.2203238474819275E-5
+obj = -1.1271733343075612E-4, rho = -0.48382585577304127
+nSV = 3, nBSV = 0
+Total nSV = 3
+*
+optimization finished, #iter = 3
+nu = 2.453799676254772E-10
+obj = -8.588298867830176E-10, rho = -1.0070267477144288
+nSV = 2, nBSV = 0
+Total nSV = 2
+.*
+optimization finished, #iter = 11
+nu = 1.3630982383400002E-5
+obj = -4.773172159865978E-5, rho = 0.39479491342551265
+nSV = 3, nBSV = 0
+Total nSV = 3
+*
+optimization finished, #iter = 6
+nu = 3.2205357995924206E-5
+obj = -1.1271733339371213E-4, rho = -0.4837244429816831
+nSV = 3, nBSV = 0
+Total nSV = 3
+*
+optimization finished, #iter = 5
+nu = 2.504765713672548E-5
+obj = -1.1271733217243631E-4, rho = 0.4842085945016464
+nSV = 3, nBSV = 0
+*
+optimization finished, #iter = 1
+nu = 4.0546445715990836E-5
+obj = -8.109289143198167E-5, rho = -0.4237337986460339
+nSV = 2, nBSV = 0
+Total nSV = 2
+.*
+optimization finished, #iter = 3
+nu = 5.404476611730805E-5
+obj = -8.109288326031913E-5, rho = 0.42359928791721035
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 1
+nu = 5.702866528980308E-10
+obj = -8.55429948598815E-10, rho = -1.0031292723427812
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 1
+nu = 4.814655736833927E-5
+obj = -7.221982586558562E-5, rho = -0.36415427680367984
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 1
+nu = 5.4061927621321115E-5
+obj = -8.109289143198167E-5, rho = -0.4237337986460339
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 1
+nu = 4.0546445715990836E-5
+obj = -8.109289143198167E-5, rho = 0.4237337986460339
+nSV = 2, nBSV = 0
+.*
+optimization finished, #iter = 9
+nu = 1.9176554211312402E-5
+obj = -7.670515078090064E-5, rho = 0.24938681036086033
+nSV = 3, nBSV = 0
+Total nSV = 3
+.*
+optimization finished, #iter = 8
+nu = 2.0036076823205613E-5
+obj = -7.013344971491669E-5, rho = 0.19587676806412804
+nSV = 3, nBSV = 0
+Total nSV = 3
+*
+optimization finished, #iter = 6
+nu = 1.9472505846192945E-5
+obj = -6.817432335318226E-5, rho = 0.026014604059582103
+nSV = 3, nBSV = 0
+Total nSV = 3
+.*
+optimization finished, #iter = 12
+nu = 1.2129201102296879E-5
+obj = -4.244982110747928E-5, rho = 0.8236532321452622
+nSV = 4, nBSV = 0
+Total nSV = 4
+*
+optimization finished, #iter = 6
+nu = 2.1914904188626316E-5
+obj = -7.67051498959952E-5, rho = 0.2489986254399075
+nSV = 3, nBSV = 0
+Total nSV = 3
+*
+optimization finished, #iter = 5
+nu = 1.7046297651015735E-5
+obj = -7.670515075165166E-5, rho = 0.24926416652957054
+nSV = 3, nBSV = 0
+Total nSV = 4
+
+
+=== Predictions on test data ===
+
+ inst#     actual  predicted error distribution
+     1 2:Melanoma 3:Melanoma   +   0.088,0.144,*0.768 
+     2 3:Melanoma 3:Melanoma       0.066,0.142,*0.792

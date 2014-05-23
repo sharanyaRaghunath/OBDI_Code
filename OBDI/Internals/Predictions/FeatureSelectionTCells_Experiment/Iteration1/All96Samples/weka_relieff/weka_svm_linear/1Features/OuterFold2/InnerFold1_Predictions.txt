@@ -1,0 +1,26 @@
+Instance_ID	Dependent_Variable_Value	Prediction	Teffs_Probability	Tregs_Probability	differentiatedTCells_Probability	naiveTcells_Probability
+Instance5	differentiatedTCells	differentiatedTCells	0.029	0.084	0.72	0.167
+Instance14	differentiatedTCells	differentiatedTCells	0.047	0.134	0.661	0.158
+Instance19	differentiatedTCells	differentiatedTCells	0.064	0.177	0.607	0.151
+Instance24	naiveTcells	differentiatedTCells	0.034	0.098	0.703	0.165
+Instance27	differentiatedTCells	differentiatedTCells	0.03	0.088	0.715	0.167
+Instance28	differentiatedTCells	differentiatedTCells	0.034	0.098	0.704	0.165
+Instance30	differentiatedTCells	differentiatedTCells	0.028	0.081	0.723	0.168
+Instance33	differentiatedTCells	differentiatedTCells	0.028	0.082	0.722	0.168
+Instance38	differentiatedTCells	differentiatedTCells	0.031	0.089	0.714	0.166
+Instance39	differentiatedTCells	differentiatedTCells	0.053	0.148	0.644	0.155
+Instance47	naiveTcells	differentiatedTCells	0.032	0.092	0.711	0.166
+Instance51	differentiatedTCells	differentiatedTCells	0.043	0.122	0.675	0.161
+Instance52	differentiatedTCells	differentiatedTCells	0.039	0.113	0.686	0.162
+Instance53	Tregs	Tregs	0.252	0.434	0.215	0.1
+Instance59	Teffs	Tregs	0.215	0.414	0.262	0.109
+Instance60	Teffs	differentiatedTCells	0.095	0.247	0.517	0.142
+Instance63	differentiatedTCells	differentiatedTCells	0.053	0.148	0.644	0.155
+Instance64	differentiatedTCells	differentiatedTCells	0.076	0.206	0.57	0.147
+Instance65	Tregs	Teffs	0.594	0.343	0.03	0.033
+Instance66	Tregs	Tregs	0.313	0.444	0.157	0.086
+Instance72	Teffs	Tregs	0.193	0.396	0.296	0.115
+Instance78	Tregs	Tregs	0.205	0.406	0.277	0.112
+Instance86	differentiatedTCells	differentiatedTCells	0.054	0.151	0.641	0.155
+Instance94	differentiatedTCells	differentiatedTCells	0.057	0.16	0.629	0.153
+

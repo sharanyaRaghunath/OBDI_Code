@@ -1,2 +1,4 @@
-OBDI_Code
-=========
+OBDI
+====
+
+Ontology Based Data Integration

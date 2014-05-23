@@ -1,0 +1,13 @@
+MAIN_OUTPUT_FOLDER = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/TCellSubtypes
+GEO_DATA_LINKS = http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSE24634, http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSE13017, http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSE2770
+GEO_XML_LINKS = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE24nnn/GSE24634/miniml/GSE24634_family.xml.tgz, ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE13nnn/GSE13017/miniml/GSE13017_family.xml.tgz, ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE2nnn/GSE2770/miniml/GSE2770_family.xml.tgz
+OWL_FILE = ObDISupportFiles/TCellOwlFile.owl
+MASTER_INDEX_FILE = ObDISupportFiles/TCellMappingFile.txt
+RAW_FILE_FOLDER = ObDIOutput/TCellClassificationAffyU133A
+ZIPPED_RAW_FILES = ObDIOutput/TCellClassificationAffyU133A/TCellSubtype.zip
+GENE_PATTERN_CLM_FILE = ObDISupportFiles/TCellsGPClm.txt
+OPTIONAL_FEATURE_LIST = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/TCellSubtypes/TregSpecificMarkersBayes.txt
+GENE_PATTERN_GCT_FILE = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/TCellSubtypes/TCellsFull.gct
+WEKA_ARFF_FILE = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/TCellSubtypes/TCellsSpecificFeatures.arff
+MLFLEX_JAR_FILE = mlflex.jar
+MLFLEX_EXPERIMENT_FILE = ObDIOutput/TCellClassificationAffyU133A/TCellMultipleAlgorithms.txt

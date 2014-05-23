@@ -1,0 +1,63 @@
+naive T cells at day 0, biological rep1|TCellClassificationAffyU133A|naiveTcells
+naive T cells at day 0, biological rep2|TCellClassificationAffyU133A|naiveTcells
+naive T cells at day 0, biological rep3|TCellClassificationAffyU133A|naiveTcells
+CD25- T cells at day 3 incubated with IL4, biological rep1|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 3 incubated with IL4, biological rep2|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 3 incubated with IL4, biological rep3|TCellClassificationAffyU133A|conventionalTcells
+Tregs at day 3, biological rep1|TCellClassificationAffyU133A|Tregs
+Tregs at day 3, biological rep2|TCellClassificationAffyU133A|Tregs
+Tregs at day 3, biological rep3|TCellClassificationAffyU133A|Tregs
+CD25- T cells at day 3 incubated without IL4, biological rep1|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 3 incubated without IL4, biological rep2|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 3 incubated without IL4, biological rep3|TCellClassificationAffyU133A|conventionalTcells
+Teffs at day 3, biological rep1|TCellClassificationAffyU133A|Teffs
+Teffs at day 3, biological rep2|TCellClassificationAffyU133A|Teffs
+Teffs at day 3, biological rep3|TCellClassificationAffyU133A|Teffs
+CD25- T cells at day 5 incubated with IL4, biological rep1|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 5 incubated with IL4, biological rep2|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 5 incubated with IL4, biological rep3|TCellClassificationAffyU133A|conventionalTcells
+Tregs at day 5, biological rep1|TCellClassificationAffyU133A|Tregs
+Tregs at day 5, biological rep2|TCellClassificationAffyU133A|Tregs
+Tregs at day 5, biological rep3|TCellClassificationAffyU133A|Tregs
+CD25- T cells at day 5 incubated without IL4, biological rep1|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 5 incubated without IL4, biological rep2|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 5 incubated without IL4, biological rep3|TCellClassificationAffyU133A|conventionalTcells
+Teffs at day 5, biological rep1|TCellClassificationAffyU133A|Teffs
+Teffs at day 5, biological rep2|TCellClassificationAffyU133A|Teffs
+Teffs at day 5, biological rep3|TCellClassificationAffyU133A|Teffs
+CD25- T cells at day 7 incubated with IL4, biological rep1|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 7 incubated with IL4, biological rep2|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 7 incubated with IL4, biological rep3|TCellClassificationAffyU133A|conventionalTcells
+Tregs at day 7, biological rep1|TCellClassificationAffyU133A|Tregs
+Tregs at day 7, biological rep2|TCellClassificationAffyU133A|Tregs
+Tregs at day 7, biological rep3|TCellClassificationAffyU133A|Tregs
+CD25- T cells at day 7 incubated without IL4, biological rep1|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 7 incubated without IL4, biological rep2|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 7 incubated without IL4, biological rep3|TCellClassificationAffyU133A|conventionalTcells
+Teffs at day 7, biological rep1|TCellClassificationAffyU133A|Teffs
+Teffs at day 7, biological rep2|TCellClassificationAffyU133A|Teffs
+Teffs at day 7, biological rep3|TCellClassificationAffyU133A|Teffs
+CD25- T cells at day 10 incubated with IL4, biological rep1|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 10 incubated with IL4, biological rep2|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 10 incubated with IL4, biological rep3|TCellClassificationAffyU133A|conventionalTcells
+Tregs at day 10, biological rep1|TCellClassificationAffyU133A|Tregs
+Tregs at day 10, biological rep2|TCellClassificationAffyU133A|Tregs
+Tregs at day 10, biological rep3|TCellClassificationAffyU133A|Tregs
+CD25- T cells at day 10 incubated without IL4, biological rep1|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 10 incubated without IL4, biological rep2|TCellClassificationAffyU133A|conventionalTcells
+CD25- T cells at day 10 incubated without IL4, biological rep3|TCellClassificationAffyU133A|conventionalTcells
+Teffs at day 10, biological rep1|TCellClassificationAffyU133A|Teffs
+Teffs at day 10, biological rep2|TCellClassificationAffyU133A|Teffs
+CD4-245 (CD25+, CD3) HG-U133A|TCellClassificationAffyU133A|Tregs
+CD4-245 (CD25+, CD3 u. CD28) HG-U133A|TCellClassificationAffyU133A|Tregs
+CD4-245 (CD25-, CD3) HG-U133A|TCellClassificationAffyU133A|conventionalTcells
+CD4-245 (CD25-, CD3 u. CD28) HG-U133A|TCellClassificationAffyU133A|conventionalTcells
+CD4-Hg CD25- (anti CD3) HG-U133A|TCellClassificationAffyU133A|conventionalTcells
+CD4-Hg CD25- (anti CD3, CD28) HG-U133A|TCellClassificationAffyU133A|conventionalTcells
+CD4-Hg CD25+ (anti CD3) HG-U133A|TCellClassificationAffyU133A|Tregs
+CD4-Hg CD25+ (anti CD3, CD28) HG-U133A|TCellClassificationAffyU133A|Tregs
+MPO CD4+CD25+ I B unstimulated HG-U133A|TCellClassificationAffyU133A|naiveTcells
+MPO CD4+CD25- (naive) I A unstimulated HG-U133A|TCellClassificationAffyU133A|naiveTcells
+THU CD4+ CD25+  II A unstimulated HG-U133A|TCellClassificationAffyU133A|naiveTcells
+THU CD4+ CD25- (naive) II A unstimulated HG-U133A|TCellClassificationAffyU133A|naiveTcells
+Th cells_no treatment_0h_replicate 1a (U133A)|TCellClassificationAffyU133A|naiveTcellsTh cells_antiCD3+antiCD28+IL4+TGFbeta_2h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4+TGFbeta_6h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28_2h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28_6h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12_2h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12_6h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12+TGFbeta_2h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12+TGFbeta_6h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4_2h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4_6h_replicate 1a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_no treatment_0h_replicate 1b (U133A)|TCellClassificationAffyU133A|naiveTcellsTh cells_antiCD3+antiCD28+IL12_48h_replicate 1b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12+TGFbeta_48h_replicate 1b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4_48h_replicate 1b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4+TGFbeta_48h_replicate 1b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28_48h_replicate 1b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_no treatment_0h_replicate 2b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28_48h_replicate 2b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12_48h_replicate 2b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4_48h_replicate 2b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12+TGFbeta_48h_replicate 2b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4+TGFbeta_48h_replicate 2b (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_no treatment_0h_replicate 2a (U133A)|TCellClassificationAffyU133A|naiveTcellsTh cells_antiCD3+antiCD28+IL12+TGFbeta_6h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4_6h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4+TGFbeta_6h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28_2h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28_6h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12_6h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12+TGFbeta_2h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4_2h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL4+TGFbeta_2h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcellsTh cells_antiCD3+antiCD28+IL12_2h_replicate 2a (U133A)|TCellClassificationAffyU133A|conventionalTcells

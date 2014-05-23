@@ -1,0 +1,25 @@
+Instance_ID	Dependent_Variable_Value	Prediction	colon4hrIFNa2a_Probability	colon24hrC_Probability	colon24hrIFNa2a_Probability	endothelial4hrIFNa2a_Probability	endothelial24hrC_Probability	endothelial24hrIFNa2a_Probability	lung4hrIFNa2a_Probability	lung24hrC_Probability	lung24hrIFNa2a_Probability	pancreas4hrIFNa2a_Probability	pancreas24hrC_Probability	pancreas24hrIFNa2a_Probability
+Instance3	endothelial24hrC	endothelial4hrIFNa2a	0.0	0.0	0.0	0.333	0.333	0.333	0.0	0.0	0.0	0.0	0.0	0.0
+Instance4	endothelial4hrIFNa2a	endothelial4hrIFNa2a	0.0	0.0	0.0	0.333	0.333	0.333	0.0	0.0	0.0	0.0	0.0	0.0
+Instance11	endothelial24hrC	endothelial4hrIFNa2a	0.0	0.0	0.0	0.333	0.333	0.333	0.0	0.0	0.0	0.0	0.0	0.0
+Instance12	endothelial24hrC	endothelial4hrIFNa2a	0.0	0.0	0.0	0.333	0.333	0.333	0.0	0.0	0.0	0.0	0.0	0.0
+Instance16	endothelial24hrIFNa2a	endothelial4hrIFNa2a	0.0	0.0	0.0	0.333	0.333	0.333	0.0	0.0	0.0	0.0	0.0	0.0
+Instance24	colon4hrIFNa2a	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance26	colon24hrIFNa2a	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance30	pancreas24hrC	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance31	pancreas4hrIFNa2a	colon24hrC	0.0	0.333	0.0	0.0	0.0	0.0	0.0	0.333	0.0	0.333	0.0	0.0
+Instance37	colon24hrC	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance41	colon4hrIFNa2a	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance42	colon4hrIFNa2a	pancreas24hrC	0.25	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.25	0.0	0.5	0.0
+Instance47	pancreas24hrC	colon24hrC	0.0	0.333	0.0	0.0	0.0	0.0	0.0	0.333	0.0	0.333	0.0	0.0
+Instance48	pancreas24hrC	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance52	pancreas24hrIFNa2a	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance58	lung4hrIFNa2a	pancreas24hrIFNa2a	0.0	0.333	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.667
+Instance62	lung24hrIFNa2a	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance66	colon24hrC	colon24hrC	0.0	0.333	0.0	0.0	0.0	0.0	0.0	0.333	0.0	0.333	0.0	0.0
+Instance70	colon24hrIFNa2a	pancreas24hrIFNa2a	0.0	0.333	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.667
+Instance77	pancreas4hrIFNa2a	colon24hrIFNa2a	0.167	0.0	0.5	0.0	0.0	0.0	0.167	0.0	0.0	0.167	0.0	0.0
+Instance81	pancreas24hrIFNa2a	colon24hrC	0.0	0.333	0.0	0.0	0.0	0.0	0.0	0.333	0.0	0.333	0.0	0.0
+Instance86	endothelial4hrIFNa2a	endothelial4hrIFNa2a	0.0	0.0	0.0	0.333	0.333	0.333	0.0	0.0	0.0	0.0	0.0	0.0
+Instance90	endothelial24hrIFNa2a	endothelial4hrIFNa2a	0.0	0.0	0.0	0.333	0.333	0.333	0.0	0.0	0.0	0.0	0.0	0.0
+

@@ -1,0 +1,10 @@
+Instance_ID	Dependent_Variable_Value	Prediction	Teffs_Probability	Tregs_Probability	conventionalTcells_Probability	naiveTcells_Probability
+Instance16	conventionalTcells	conventionalTcells	0.138	0.281	0.547	0.034
+Instance18	naiveTcells	naiveTcells	0.006	0.002	0.002	0.99
+Instance35	Tregs	naiveTcells	0.059	0.311	0.312	0.318
+Instance50	conventionalTcells	conventionalTcells	0.053	0.013	0.93	0.004
+Instance68	conventionalTcells	Teffs	0.533	0.022	0.424	0.021
+Instance69	conventionalTcells	conventionalTcells	0.26	0.057	0.659	0.024
+Instance72	Teffs	Teffs	0.459	0.206	0.292	0.043
+Instance92	conventionalTcells	conventionalTcells	0.048	0.003	0.946	0.003
+

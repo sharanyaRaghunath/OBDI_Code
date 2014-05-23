@@ -1,0 +1,5 @@
+=== Predictions on test data ===
+
+ inst#     actual  predicted error distribution
+     1 2:Melanoma 3:Melanoma   +   0,0,*1 
+     2 3:Melanoma 3:Melanoma       0,0,*1

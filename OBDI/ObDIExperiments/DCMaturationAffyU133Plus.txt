@@ -1,0 +1,14 @@
+MAIN_OUTPUT_FOLDER = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/DendriticCellsHuman
+GEO_DATA_LINKS = http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE4984&format=file, http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE7509&format=file, http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE11327&format=file, http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE10316&format=file   
+GEO_XML_LINKS = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE4nnn/GSE4984/miniml/GSE4984_family.xml.tgz, ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE7nnn/GSE7509/miniml/GSE7509_family.xml.tgz, ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE11nnn/GSE11327/miniml/GSE11327_family.xml.tgz, ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE10nnn/GSE10316/miniml/GSE10316_family.xml.tgz
+OWL_FILE = ObDISupportFiles/DCExperimentOntology.owl
+MASTER_INDEX_FILE = ObDISupportFiles/DCMappingFile.txt
+RAW_FILE_FOLDER = ObDIOutput/DCMaturationAffyU133Plus
+ZIPPED_RAW_FILES = ObDIOutput/DCMaturationAffyU133Plus/DCMaturation.zip
+GENE_PATTERN_CLM_FILE = ObDISupportFiles/DCsGPClm.txt
+OPTIONAL_FEATURE_LIST = /OBDI/ObDISupportFiles/FeatureListDCs.txt
+GENE_PATTERN_GCT_FILE = ObDIOutput/DCMaturationAffyU133Plus/DCMaturation.gct
+WEKA_ARFF_FILE = ObDIOutput/DCMaturationAffyU133Plus/DCMaturationFeatSel.arff
+MLFLEX_JAR_FILE = mlflex.jar
+MLFLEX_EXPERIMENT_FILE = ObDIOutput/DCMaturationAffyU133Plus/DCMaturationTestTrain.txt
+

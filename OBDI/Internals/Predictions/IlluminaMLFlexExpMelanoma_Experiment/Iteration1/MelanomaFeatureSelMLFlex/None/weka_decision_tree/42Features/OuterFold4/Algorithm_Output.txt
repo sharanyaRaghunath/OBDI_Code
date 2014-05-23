@@ -1,0 +1,12 @@
+=== Predictions on test data ===
+
+ inst#     actual  predicted error distribution
+     1 4:Endothet 4:Endothet       0,0,0,*0.889,0.111,0,0,0,0,0,0,0 
+     2 5:Endothet 4:Endothet   +   0,0,0,*0.889,0.111,0,0,0,0,0,0,0 
+     3 12:Pancrea 12:Pancrea       0,0,0,0,0,0,0,0,0,0,0,*1 
+     4 2:Colon24h 2:Colon24h       0,*1,0,0,0,0,0,0,0,0,0,0 
+     5 3:Colon24h 1:Colon4hr   +   *0.5,0,0.5,0,0,0,0,0,0,0,0,0 
+     6 10:Pancrea 1:Colon4hr   +   *0.5,0,0.5,0,0,0,0,0,0,0,0,0 
+     7 1:Colon4hr 1:Colon4hr       *1,0,0,0,0,0,0,0,0,0,0,0 
+     8 11:Pancrea 11:Pancrea       0,0,0,0,0,0,0,0,0,0,*1,0 
+     9 6:Endothet 11:Pancrea   +   0,0,0,0,0,0,0,0,0,0,*1,0

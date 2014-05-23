@@ -1,0 +1,13 @@
+=== Predictions on test data ===
+
+ inst#     actual  predicted error distribution
+     1 3:conventi 3:conventi       0.022,0,*0.978,0 
+     2 3:conventi 3:conventi       0.022,0,*0.978,0 
+     3 4:naiveTce 4:naiveTce       0,0.1,0,*0.9 
+     4    2:Tregs    2:Tregs       0,*1,0,0 
+     5    1:Teffs 3:conventi   +   0.022,0,*0.978,0 
+     6    1:Teffs    2:Tregs   +   0,*1,0,0 
+     7 3:conventi 3:conventi       0.022,0,*0.978,0 
+     8 3:conventi    1:Teffs   +   *0.857,0.143,0,0 
+     9 3:conventi 3:conventi       0.022,0,*0.978,0 
+    10 3:conventi 3:conventi       0.022,0,*0.978,0

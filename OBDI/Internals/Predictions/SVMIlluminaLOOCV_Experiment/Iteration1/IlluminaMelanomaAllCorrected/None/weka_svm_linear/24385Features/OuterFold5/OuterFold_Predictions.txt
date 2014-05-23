@@ -1,0 +1,3 @@
+Instance_ID	Dependent_Variable_Value	Prediction	colon4hrIFNa2a_Probability	colon24hrC_Probability	colon24hrIFNa2a_Probability	endothelial4hrIFNa2a_Probability	endothelial24hrC_Probability	endothelial24hrIFNa2a_Probability	lung4hrIFNa2a_Probability	lung24hrC_Probability	lung24hrIFNa2a_Probability	pancreas4hrIFNa2a_Probability	pancreas24hrC_Probability	pancreas24hrIFNa2a_Probability
+Instance5	endothelial4hrIFNa2a	endothelial4hrIFNa2a	0.034	0.028	0.031	0.552	0.099	0.09	0.023	0.024	0.022	0.039	0.023	0.033
+

@@ -1,0 +1,1788 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://bmi.utah.edu/cellMLExp"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://bmi.utah.edu/cellMLExp">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/cl.owl</Import>
+    <Declaration>
+        <Class IRI="#CD4-positive_CD25-negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CD4-positive_CD25-positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ML-Experiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PBMC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCellClassificationAffyU133A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCellTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TconvsTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teffs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Th0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Th1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Th2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tregs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conventionalTcells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#effectorTcells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iTregs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inducedTregTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nTregs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#naiveTcells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#naturalTregTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#purifiedTCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#undiffThCells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#undifferentiatedNaiveState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsCellType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSample"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inExperiment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTreatmentOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM286089"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM286090"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM286091"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326123"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326124"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326125"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326126"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326127"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326128"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326129"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326130"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326131"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326132"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326133"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM326134"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60699"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60700"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60701"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60702"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60703"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60704"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60705"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60706"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60707"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60708"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60709"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60710"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60711"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60712"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60713"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60714"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60715"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60716"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60717"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60718"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60719"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60720"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60721"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60722"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60723"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60724"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60725"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60726"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60727"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60728"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60729"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60730"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60731"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM60732"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607510"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607511"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607512"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607513"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607514"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607515"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607516"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607517"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607518"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607519"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607520"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607521"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM607522"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IL4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TGFb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antiCD3+TR66+IL2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unstimulatedTreg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#untreated"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#CLASSIFICATION_ALGORITHMS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#DATA_PROCESSORS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#NUM_INNER_CROSS_VALIDATION_FOLDS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#NUM_ITERATIONS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#NUM_OUTER_CROSS_VALIDATION_FOLDS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#TEST_INSTANCE_IDS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#TRAIN_INSTANCE_IDS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/Ml-Flex#TEST_ANNOTATION"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#normalizationMethod"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#testSamples"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#trainingSamples"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#TCellClassificationAffyU133A"/>
+        <ObjectUnionOf>
+            <Class IRI="#Teffs"/>
+            <Class IRI="#Tregs"/>
+            <Class IRI="#conventionalTcells"/>
+            <Class IRI="#naiveTcells"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Teffs"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#containsCellType"/>
+                <Class IRI="#effectorTcells"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTreatment"/>
+                <Class IRI="#Control"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Tregs"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#containsCellType"/>
+                    <Class IRI="#iTregs"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasTreatment"/>
+                    <Class IRI="#inducedTregTreatment"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#containsCellType"/>
+                    <Class IRI="#nTregs"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasTreatment"/>
+                    <Class IRI="#naturalTregTreatment"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#conventionalTcells"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#containsCellType"/>
+                <Class IRI="#CD4-positive_CD25-negative"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTreatment"/>
+                <Class IRI="#TconvsTreatment"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#naiveTcells"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#containsCellType"/>
+                <Class IRI="#undifferentiatedNaiveState"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTreatment"/>
+                <Class IRI="#Control"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#undiffThCells"/>
+        <ObjectUnionOf>
+            <Class IRI="#Th0"/>
+            <Class IRI="#Th1"/>
+            <Class IRI="#Th2"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#CD4-positive_CD25-negative"/>
+        <Class IRI="#purifiedTCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CD4-positive_CD25-positive"/>
+        <Class IRI="#purifiedTCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Control"/>
+        <Class IRI="#TCellTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ML-Experiment"/>
+        <Class IRI="#sample"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PBMC"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCellClassificationAffyU133A"/>
+        <Class IRI="#ML-Experiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCellTreatment"/>
+        <Class IRI="#treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TconvsTreatment"/>
+        <Class IRI="#TCellTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teffs"/>
+        <Class IRI="#condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Th0"/>
+        <Class IRI="#CD4-positive_CD25-negative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Th1"/>
+        <Class IRI="#CD4-positive_CD25-negative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Th2"/>
+        <Class IRI="#CD4-positive_CD25-negative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tregs"/>
+        <Class IRI="#condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conventionalTcells"/>
+        <Class IRI="#condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#effectorTcells"/>
+        <Class IRI="#CD4-positive_CD25-positive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iTregs"/>
+        <Class IRI="#CD4-positive_CD25-positive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inducedTregTreatment"/>
+        <Class IRI="#TCellTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nTregs"/>
+        <Class IRI="#CD4-positive_CD25-positive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#naiveTcells"/>
+        <Class IRI="#condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#naturalTregTreatment"/>
+        <Class IRI="#TCellTreatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#purifiedTCell"/>
+        <Class IRI="#PBMC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#undiffThCells"/>
+        <Class IRI="#CD4-positive_CD25-negative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#undifferentiatedNaiveState"/>
+        <Class IRI="#purifiedTCell"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#CD4-positive_CD25-negative"/>
+        <Class IRI="#CD4-positive_CD25-positive"/>
+        <Class IRI="#undifferentiatedNaiveState"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Teffs"/>
+        <Class IRI="#Tregs"/>
+        <Class IRI="#conventionalTcells"/>
+        <Class IRI="#naiveTcells"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Th0"/>
+        <Class IRI="#Th1"/>
+        <Class IRI="#Th2"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#effectorTcells"/>
+        <Class IRI="#iTregs"/>
+        <Class IRI="#nTregs"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM286089"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM286090"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM286091"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#nTregs"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326124"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#nTregs"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326124"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undiffThCells"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326126"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undiffThCells"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326126"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326127"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undiffThCells"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326127"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326128"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undiffThCells"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326128"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326129"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#nTregs"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326129"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326130"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#nTregs"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326130"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326131"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326131"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326132"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326132"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326133"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326133"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM326134"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM326134"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60699"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60699"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60700"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60700"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60701"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60701"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60702"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60702"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60703"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60703"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60704"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60704"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60705"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60705"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60706"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60706"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60707"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60707"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60708"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60708"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60709"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60709"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60710"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60710"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60711"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60711"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60712"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60712"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60713"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60713"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60714"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60714"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60715"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60715"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60716"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60716"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60717"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60717"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60718"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60718"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60719"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60719"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60720"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60720"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60721"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60721"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60722"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60722"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60723"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60723"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60724"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60724"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60725"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60725"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60726"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60726"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60727"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60727"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60728"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60728"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60729"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60729"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60730"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60730"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60731"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60731"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM60732"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th1"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM60732"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607510"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607510"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607511"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607511"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607512"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#undifferentiatedNaiveState"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607512"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607513"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607513"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607514"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607514"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607515"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th2"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607515"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607516"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#iTregs"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607516"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607517"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#iTregs"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607517"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607518"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#iTregs"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607518"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607519"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607519"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607520"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607520"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607521"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Th0"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607521"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM607522"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#effectorTcells"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM607522"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#inducedTregTreatment"/>
+        <NamedIndividual IRI="#IL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TconvsTreatment"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TconvsTreatment"/>
+        <NamedIndividual IRI="#antiCD3+TR66+IL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#naturalTregTreatment"/>
+        <NamedIndividual IRI="#antiCD3+TR66+IL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#TconvsTreatment"/>
+            <Class IRI="#naturalTregTreatment"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#antiCD3+TR66+IL2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TconvsTreatment"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#naturalTregTreatment"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#TconvsTreatment"/>
+            <Class IRI="#naturalTregTreatment"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TconvsTreatment"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TconvsTreatment"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Control"/>
+        <NamedIndividual IRI="#untreated"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#GSM326123"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326123"/>
+        <NamedIndividual IRI="#antiCD3+TR66+IL2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326124"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326125"/>
+        <NamedIndividual IRI="#antiCD3+TR66+IL2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326126"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326127"/>
+        <NamedIndividual IRI="#antiCD3+TR66+IL2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326128"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326129"/>
+        <NamedIndividual IRI="#antiCD3+TR66+IL2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326130"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326131"/>
+        <NamedIndividual IRI="#untreated"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326132"/>
+        <NamedIndividual IRI="#untreated"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326133"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM326134"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60699"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60700"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60701"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60702"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60703"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60704"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60705"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60706"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60707"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60708"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60709"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60710"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60711"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60712"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60713"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60714"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60715"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60716"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60717"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60718"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60719"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60720"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60721"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60722"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60723"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60724"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60725"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60726"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60727"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60728"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60729"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60730"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60731"/>
+        <NamedIndividual IRI="#TGFb"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM60732"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28+IL12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607510"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607511"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607512"/>
+        <NamedIndividual IRI="#unstimulatedTcells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607513"/>
+        <NamedIndividual IRI="#IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607514"/>
+        <NamedIndividual IRI="#IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607515"/>
+        <NamedIndividual IRI="#IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607516"/>
+        <NamedIndividual IRI="#IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607517"/>
+        <NamedIndividual IRI="#IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607518"/>
+        <NamedIndividual IRI="#IL4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607519"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607520"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607521"/>
+        <NamedIndividual IRI="#antiCD3+antiCD28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM607522"/>
+        <NamedIndividual IRI="#untreated"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSample"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359976495235452000"/>
+        <NamedIndividual IRI="#GSM286091"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSample"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359976495235452000"/>
+        <NamedIndividual IRI="#GSM286090"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSample"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359976877025549000"/>
+        <NamedIndividual IRI="#GSM286090"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSample"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359976877025549000"/>
+        <NamedIndividual IRI="#GSM286089"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSample"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359976877025549000"/>
+        <NamedIndividual IRI="#GSM286091"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSample"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359980707077750000"/>
+        <NamedIndividual IRI="#GSM286091"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSample"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359980707077750000"/>
+        <NamedIndividual IRI="#GSM286090"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSample"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359980870165010000"/>
+        <NamedIndividual IRI="#GSM286089"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <ObjectProperty IRI="#isTreatmentOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCondition"/>
+        <Class IRI="#sample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <Class IRI="#ML-Experiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSample"/>
+        <Class IRI="#ML-Experiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <Class IRI="#sample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inExperiment"/>
+        <Class IRI="#condition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCondition"/>
+        <Class IRI="#condition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSample"/>
+        <Class IRI="#sample"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <Class IRI="#treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inExperiment"/>
+        <Class IRI="#ML-Experiment"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM286089</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM286089&amp;file=GSM286089%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM286090</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM286090&amp;file=GSM286090%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM286091</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM286091&amp;file=GSM286091%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GSM326123</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">TEST</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607510</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607510&amp;file=GSM607510%5Fdon1%5F0%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607511</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607511&amp;file=GSM607511%5Fdon2%5F0%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607512</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607512&amp;file=GSM607512%5Fdon3%5F0%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607513</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607513&amp;file=GSM607513%5Fdon1%5F3%2B4no25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607514</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607514&amp;file=GSM607514%5Fdon2%5F3%2B4no25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607515</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607515&amp;file=GSM607515%5Fdon3%5F3%2B4no25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607516</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607516&amp;file=GSM607516%5Fdon1%5F3%2B4%2B25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607517</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607517&amp;file=GSM607517%5Fdon2%5F3%2B4%2B25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607518</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607518&amp;file=GSM607518%5Fdon3%5F3%2B4%2B25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607519</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607519&amp;file=GSM607519%5Fdon1%5F3no4no25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607520</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607520&amp;file=GSM607520%5Fdon2%5F3no4no25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607521</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607521&amp;file=GSM607521%5Fdon3%5F3no4no25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/GEO#rawData"/>
+        <IRI>#GSM607522</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">http://www.ncbi.nlm.nih.gov/geosuppl/?acc=GSM607522&amp;file=GSM607522%5Fdon1%5F3no4%2B25%2ECEL%2Egz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>#PBMC</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Peripheral blood mononuclear cells are cells that have a round nucleus that include lymphocytes, monocytes, and macrophages. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PBMC</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">For experimental purposes, PBMCs can be obtained from blood banks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#CLASSIFICATION_ALGORITHMS"/>
+        <IRI>#TCellClassificationAffyU133A</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">weka_naive_bayes;weka_svm_linear;weka_decision_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#DATA_PROCESSORS"/>
+        <IRI>#TCellClassificationAffyU133A</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">mlflex.dataprocessors.ArffDataProcessor(&quot;ObDIOutput/TCellClassificationAffyU133A/TCellsFeatureSel.arff&quot;)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#NUM_ITERATIONS"/>
+        <IRI>#TCellClassificationAffyU133A</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#normalizationMethod"/>
+        <IRI>#TCellClassificationAffyU133A</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">RMA: Robust Multiarray Average</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#trainingSamples"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359976385221358000"/>
+        <AnonymousIndividual nodeID="_:http://www.semanticweb.org/sharanya/ontologies/2012/9/untitled-ontology-38#genid1359976495235452000"/>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

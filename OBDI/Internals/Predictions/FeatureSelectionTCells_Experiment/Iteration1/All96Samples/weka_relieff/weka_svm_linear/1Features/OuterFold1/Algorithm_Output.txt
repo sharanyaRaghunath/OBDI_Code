@@ -1,0 +1,281 @@
+Zero Weights processed. Default weights will be used
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 72
+nu = 0.35714285714285715
+obj = -10.000063575709714, rho = -1.000017840086211
+nSV = 11, nBSV = 9
+Total nSV = 11
+*
+optimization finished, #iter = 7
+nu = 0.42857142857142855
+obj = -11.999997473824045, rho = 1.0003029707024513
+nSV = 13, nBSV = 11
+Total nSV = 13
+*
+optimization finished, #iter = 6
+nu = 0.35714285714285715
+obj = -10.00001942703649, rho = 1.0004269109460182
+nSV = 11, nBSV = 9
+Total nSV = 11
+*
+optimization finished, #iter = 5
+nu = 0.21428571428571427
+obj = -6.000001973990608, rho = 0.9999627037220238
+nSV = 7, nBSV = 5
+Total nSV = 7
+*
+optimization finished, #iter = 7
+nu = 0.35714285714285715
+obj = -10.000018280913103, rho = 1.0011895062556846
+nSV = 11, nBSV = 9
+Total nSV = 11
+*
+optimization finished, #iter = 7
+nu = 0.34285714285714286
+obj = -11.999997473824044, rho = 1.0003029707024513
+nSV = 13, nBSV = 11
+*
+optimization finished, #iter = 3
+nu = 0.0031732787616155674
+obj = -0.019039672569693404, rho = -5.460644099665434
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.0029670959878178925
+obj = -0.016319025798781875, rho = -4.981267238537864
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.0012917195693194737
+obj = -0.007104456849877504, rho = -3.7247924664145295
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.0034617586490351612
+obj = -0.01903967256969339, rho = -5.46064409966543
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.0034617586490351643
+obj = -0.019039672569693404, rho = -5.460644099665434
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.0027199532242419147
+obj = -0.019039672569693404, rho = -5.460644099665434
+nSV = 2, nBSV = 0
+*
+optimization finished, #iter = 3
+nu = 0.0015708850116294298
+obj = -0.007068982552332435, rho = -3.7179802142699057
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.0014280059638652966
+obj = -0.006426026663068756, rho = -3.498305438242723
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.0015708850116294298
+obj = -0.007068982552332435, rho = -3.7179802142699057
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 5.686380786002641E-4
+obj = -0.0025588712978634573, rho = -2.635279995744803
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.0017672456380831078
+obj = -0.007068982552332431, rho = -3.717980214269904
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 0.001285269554969533
+obj = -0.007068982552332431, rho = -3.717980214269904
+nSV = 2, nBSV = 0
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 71
+nu = 0.07864249524407214
+obj = -2.351496200687274, rho = -5.097768326257411
+nSV = 4, nBSV = 2
+Total nSV = 4
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 35
+nu = 0.09600774411043507
+obj = -2.838252469625566, rho = -10.494898994732539
+nSV = 4, nBSV = 2
+Total nSV = 4
+*
+optimization finished, #iter = 3
+nu = 0.06896551724137931
+obj = -1.9326171874999645, rho = -12.374389648437415
+nSV = 2, nBSV = 2
+Total nSV = 2
+.
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 45
+nu = 0.08547661526123959
+obj = -2.545938202858764, rho = -6.615030310376888
+nSV = 4, nBSV = 2
+Total nSV = 4
+*
+optimization finished, #iter = 3
+nu = 0.009632666403665358
+obj = -0.13967366285314808, rho = -19.94960017731999
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 34
+nu = 0.07784411528236004
+obj = -2.838252469625481, rho = -10.494891773876082
+nSV = 4, nBSV = 2
+*
+optimization finished, #iter = 4
+nu = 0.00975862428875576
+obj = -0.13662099847353293, rho = -19.74135505075605
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 4
+nu = 0.010120054817968935
+obj = -0.13662099847353293, rho = -19.74135505075605
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 4
+nu = 0.010120054817968935
+obj = -0.13662099847353293, rho = -19.74135505075605
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 3
+nu = 6.6172112517632E-4
+obj = -0.008933235189880335, rho = -5.7923175485946405
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 4
+nu = 0.0030773258894502987
+obj = -0.041543899507579, rho = -10.437499049135603
+nSV = 2, nBSV = 0
+Total nSV = 2
+*
+optimization finished, #iter = 4
+nu = 0.008036516420899874
+obj = -0.1366209984736697, rho = -19.741360702445828
+nSV = 2, nBSV = 0
+..............
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 161
+nu = 0.7272727272727273
+obj = -7.99985279743761, rho = -0.99948567329528
+nSV = 9, nBSV = 6
+Total nSV = 9
+....................................................*
+optimization finished, #iter = 522
+nu = 0.7462796979832573
+obj = -7.460717835155938, rho = 3.2131896642462423
+nSV = 8, nBSV = 6
+Total nSV = 8
+..........
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 118
+nu = 0.5454545454545454
+obj = -5.999858769436212, rho = -0.9995410594078153
+nSV = 7, nBSV = 4
+Total nSV = 7
+................
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 167
+nu = 0.8
+obj = -7.999180123408365, rho = -0.9998469378353079
+nSV = 9, nBSV = 6
+Total nSV = 9
+.......................*
+optimization finished, #iter = 236
+nu = 0.8903024661072584
+obj = -8.900549597644918, rho = 3.0358161822564007
+nSV = 10, nBSV = 8
+Total nSV = 10
+.........
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 122
+nu = 0.7692307692307693
+obj = -9.999650055172506, rho = -0.9992652284431139
+nSV = 11, nBSV = 8
+Total nSV = 26
+
+
+=== Predictions on test data ===
+
+ inst#     actual  predicted error distribution
+     1 3:differen 3:differen       0.013,0.025,*0.784,0.178 
+     2 3:differen 3:differen       0.018,0.033,*0.775,0.174 
+     3 3:differen 3:differen       0.011,0.02,*0.787,0.183 
+     4 3:differen 3:differen       0.01,0.018,*0.788,0.184 
+     5 3:differen 3:differen       0.022,0.04,*0.767,0.171 
+     6 3:differen 3:differen       0.018,0.034,*0.774,0.173 
+     7 4:naiveTce 3:differen   +   0.012,0.023,*0.786,0.179 
+     8 3:differen 3:differen       0.044,0.073,*0.726,0.157 
+     9 3:differen 3:differen       0.032,0.056,*0.749,0.163 
+    10 4:naiveTce 3:differen   +   0.012,0.021,*0.786,0.181 
+    11 3:differen 3:differen       0.017,0.032,*0.777,0.174 
+    12 3:differen 3:differen       0.012,0.023,*0.786,0.179 
+    13 3:differen 3:differen       0.013,0.024,*0.784,0.178 
+    14 3:differen 3:differen       0.013,0.024,*0.785,0.178 
+    15 3:differen 3:differen       0.01,0.019,*0.788,0.183 
+    16 3:differen 3:differen       0.013,0.023,*0.786,0.179 
+    17    2:Tregs    1:Teffs   +   *0.334,0.32,0.241,0.105 
+    18 3:differen 3:differen       0.045,0.075,*0.723,0.157 
+    19 3:differen 3:differen       0.033,0.057,*0.747,0.163 
+    20 3:differen 3:differen       0.018,0.033,*0.776,0.174 
+    21 3:differen 3:differen       0.023,0.041,*0.766,0.171 
+    22    2:Tregs 3:differen   +   0.277,0.276,*0.33,0.117 
+    23 4:naiveTce 3:differen   +   0.091,0.128,*0.637,0.144 
+    24 4:naiveTce 3:differen   +   0.063,0.097,*0.689,0.15 
+    25 4:naiveTce 3:differen   +   0.031,0.054,*0.751,0.164 
+    26 3:differen 3:differen       0.021,0.038,*0.77,0.172 
+    27 3:differen 3:differen       0.025,0.045,*0.762,0.168 
+    28    2:Tregs    2:Tregs       0.491,*0.496,0.005,0.008 
+    29    2:Tregs 3:differen   +   0.166,0.192,*0.508,0.134 
+    30    1:Teffs    2:Tregs   +   0.466,*0.469,0.033,0.032 
+    31    1:Teffs    1:Teffs       *0.336,0.322,0.238,0.104 
+    32 3:differen 3:differen       0.021,0.038,*0.769,0.171 
+    33 3:differen 3:differen       0.083,0.119,*0.652,0.146 
+    34    2:Tregs    2:Tregs       0.494,*0.499,0.002,0.005 
+    35    2:Tregs    1:Teffs   +   *0.395,0.379,0.143,0.082 
+    36 3:differen 3:differen       0.021,0.038,*0.769,0.172 
+    37    1:Teffs 3:differen   +   0.182,0.205,*0.481,0.132 
+    38    1:Teffs 3:differen   +   0.15,0.18,*0.534,0.136 
+    39 3:differen 3:differen       0.247,0.253,*0.377,0.123 
+    40    2:Tregs 3:differen   +   0.227,0.238,*0.409,0.126 
+    41    2:Tregs    2:Tregs       0.489,*0.494,0.007,0.01 
+    42 3:differen 3:differen       0.255,0.259,*0.365,0.122 
+    43    1:Teffs    2:Tregs   +   0.497,*0.502,0,0.001 
+    44 3:differen 3:differen       0.059,0.093,*0.696,0.152 
+    45 3:differen 3:differen       0.032,0.055,*0.749,0.164 
+    46 3:differen 3:differen       0.072,0.107,*0.673,0.148 
+    47 3:differen 3:differen       0.037,0.064,*0.738,0.16 
+    48    1:Teffs    2:Tregs   +   0.479,*0.484,0.018,0.02

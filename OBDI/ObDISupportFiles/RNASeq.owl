@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://bmi.utah.edu/cellMLExp"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://bmi.utah.edu/cellMLExp">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://purl.obolibrary.org/obo/cl.owl</Import>
+    <Declaration>
+        <Class IRI="#CancerCellCulturePassage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeukemiaNormalPassage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ML-Experiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeWo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mel501"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MelanomaNormalPassage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MelanomaRNA-Seq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MelanomaShortTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cancer_cell_lines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#controlLeukemia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#controlMelanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leukemia_K-562"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shortTermMelanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#short_term_culture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#skin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#treatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsCellType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSample"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inExperiment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTreatmentOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506401"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506402"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506403"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506404"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506405"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506406"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506407"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506408"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506409"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506410"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506411"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506412"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506413"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GSM506414"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LessThan20"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#CLASSIFICATION_ALGORITHMS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#DATA_PROCESSORS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#NUM_INNER_CROSS_VALIDATION_FOLDS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#NUM_ITERATIONS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#NUM_OUTER_CROSS_VALIDATION_FOLDS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#TEST_INSTANCE_IDS"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#TRAIN_INSTANCE_IDS"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#LeukemiaNormalPassage"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#containsCellType"/>
+                <Class IRI="#leukemia_K-562"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTreatment"/>
+                <Class IRI="#controlLeukemia"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MelanomaNormalPassage"/>
+        <ObjectIntersectionOf>
+            <ObjectUnionOf>
+                <Class IRI="#Mel501"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#containsCellType"/>
+                    <Class IRI="#MeWo"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTreatment"/>
+                <Class IRI="#controlMelanoma"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MelanomaRNA-Seq"/>
+        <ObjectUnionOf>
+            <Class IRI="#LeukemiaNormalPassage"/>
+            <Class IRI="#MelanomaNormalPassage"/>
+            <Class IRI="#MelanomaShortTerm"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MelanomaShortTerm"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#containsCellType"/>
+                <Class IRI="#short_term_culture"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasTreatment"/>
+                <Class IRI="#shortTermMelanoma"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#CancerCellCulturePassage"/>
+        <Class IRI="#treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeukemiaNormalPassage"/>
+        <Class IRI="#condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ML-Experiment"/>
+        <Class IRI="#sample"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeWo"/>
+        <Class IRI="#skin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mel501"/>
+        <Class IRI="#skin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MelanomaNormalPassage"/>
+        <Class IRI="#condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MelanomaRNA-Seq"/>
+        <Class IRI="#ML-Experiment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MelanomaShortTerm"/>
+        <Class IRI="#condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blood"/>
+        <Class IRI="#cancer_cell_lines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cancer_cell_lines"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0001034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#controlLeukemia"/>
+        <Class IRI="#CancerCellCulturePassage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#controlMelanoma"/>
+        <Class IRI="#CancerCellCulturePassage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leukemia_K-562"/>
+        <Class IRI="#blood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shortTermMelanoma"/>
+        <Class IRI="#CancerCellCulturePassage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#short_term_culture"/>
+        <Class IRI="#skin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skin"/>
+        <Class IRI="#cancer_cell_lines"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#LeukemiaNormalPassage"/>
+        <Class IRI="#MelanomaNormalPassage"/>
+        <Class IRI="#MelanomaShortTerm"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MeWo"/>
+        <Class IRI="#Mel501"/>
+        <Class IRI="#short_term_culture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#blood"/>
+        <Class IRI="#skin"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506401"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#MeWo"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506401"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506402"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#MeWo"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506402"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506403"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#MeWo"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506403"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506404"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#Mel501"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506404"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506405"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#short_term_culture"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506405"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506406"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#short_term_culture"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506406"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506407"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#short_term_culture"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506407"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506408"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#short_term_culture"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506408"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506409"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#short_term_culture"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506409"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#short_term_culture"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506411"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#short_term_culture"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506411"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506412"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#short_term_culture"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506412"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506413"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#leukemia_K-562"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506413"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#GSM506414"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsCellType"/>
+            <Class IRI="#leukemia_K-562"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#GSM506414"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#controlLeukemia"/>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#controlMelanoma"/>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#shortTermMelanoma"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506401"/>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506402"/>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506403"/>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506404"/>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506405"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506406"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506407"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506408"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506409"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506410"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506411"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506412"/>
+        <NamedIndividual IRI="#LessThan20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506413"/>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <NamedIndividual IRI="#GSM506414"/>
+        <NamedIndividual IRI="#GreaterThan30"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <ObjectProperty IRI="#isTreatmentOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCondition"/>
+        <Class IRI="#sample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSample"/>
+        <Class IRI="#ML-Experiment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <Class IRI="#sample"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inExperiment"/>
+        <Class IRI="#condition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCondition"/>
+        <Class IRI="#condition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSample"/>
+        <Class IRI="#sample"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <Class IRI="#treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inExperiment"/>
+        <Class IRI="#ML-Experiment"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GSM506401</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#CLASSIFICATION_ALGORITHMS"/>
+        <IRI>#MelanomaRNA-Seq</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">weka_naive_bayes;weka_svm_linear;weka_decision_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#DATA_PROCESSORS"/>
+        <IRI>#MelanomaRNA-Seq</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">mlflex.dataprocessors.ArffDataProcessor(&quot;/Users/sharanya/Documents/ThesisWorkV2/ThesisData/IlluminaMelanomaData/melanomaIFNa2a.arff&quot;)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://bmi.utah.edu/ML-Flex#NUM_ITERATIONS"/>
+        <IRI>#MelanomaRNA-Seq</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">1</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

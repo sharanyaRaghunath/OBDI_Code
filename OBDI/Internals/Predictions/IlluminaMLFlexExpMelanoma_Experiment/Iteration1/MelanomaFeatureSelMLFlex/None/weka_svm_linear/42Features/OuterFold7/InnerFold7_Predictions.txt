@@ -1,0 +1,10 @@
+Instance_ID	Dependent_Variable_Value	Prediction	Colon4hrIFNa2a_Probability	Colon24hrC_Probability	Colon24hrIFNa2a_Probability	Endothetial4hrIFNa2a_Probability	Endothetial24hrIFNa2a_Probability	EndothetialControl_Probability	Lung4hrIFNa2a_Probability	Lung24hrC_Probability	Lung24hrIFNa2a_Probability	Pancreas4hrIFNa2a_Probability	Pancreas24hrC_Probability	Pancreas24hrIFNa2a_Probability
+Instance2	EndothetialControl	EndothetialControl	0.02	0.094	0.03	0.12	0.189	0.425	0.014	0.013	0.015	0.019	0.053	0.009
+Instance13	Endothetial4hrIFNa2a	Endothetial4hrIFNa2a	0.036	0.036	0.057	0.486	0.174	0.067	0.017	0.017	0.015	0.038	0.02	0.037
+Instance17	Endothetial24hrIFNa2a	Endothetial24hrIFNa2a	0.02	0.013	0.026	0.233	0.484	0.098	0.013	0.013	0.011	0.03	0.016	0.044
+Instance29	Pancreas24hrC	Pancreas24hrC	0.07	0.186	0.139	0.029	0.039	0.043	0.01	0.011	0.01	0.064	0.359	0.04
+Instance41	Colon4hrIFNa2a	Colon4hrIFNa2a	0.318	0.192	0.247	0.012	0.016	0.009	0.053	0.055	0.052	0.01	0.02	0.017
+Instance44	Colon24hrIFNa2a	Colon24hrC	0.128	0.342	0.273	0.023	0.03	0.02	0.044	0.046	0.046	0.012	0.017	0.02
+Instance54	Pancreas24hrIFNa2a	Pancreas24hrIFNa2a	0.037	0.043	0.123	0.039	0.07	0.056	0.021	0.02	0.019	0.213	0.052	0.307
+Instance62	Lung24hrIFNa2a	Lung24hrC	0.09	0.065	0.096	0.025	0.031	0.016	0.201	0.205	0.196	0.022	0.023	0.03
+

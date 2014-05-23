@@ -1,0 +1,4 @@
+Instance_ID	Dependent_Variable_Value	Prediction	LeukemiaNormalPassage_Probability	MelanomaNormalPassage_Probability	MelanomaShortTerm_Probability
+Instance7	MelanomaShortTerm	MelanomaShortTerm	0.141	0.261	0.598
+Instance12	LeukemiaNormalPassage	MelanomaShortTerm	0.128	0.258	0.614
+

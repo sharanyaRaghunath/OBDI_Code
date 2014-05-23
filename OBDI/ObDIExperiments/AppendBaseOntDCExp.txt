@@ -1,0 +1,3 @@
+MAIN_OUTPUT_FOLDER = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/DendriticCellsHuman
+GEO_XML_LINKS = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE4nnn/GSE4984/miniml/GSE4984_family.xml.tgz, ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE7nnn/GSE7509/miniml/GSE7509_family.xml.tgz, ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE11nnn/GSE11327/miniml/GSE11327_family.xml.tgz, ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE10nnn/GSE10316/miniml/GSE10316_family.xml.tgz
+OWL_FILE = ObDISupportFiles/DCExperimentOntology.owl

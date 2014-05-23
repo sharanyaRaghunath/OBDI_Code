@@ -1,0 +1,12 @@
+MAIN_OUTPUT_FOLDER = /Users/sharanya/Documents/OBDI/ObDIOutput
+GEO_DATA_LINKS = https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE20156&format=file
+GEO_XML_LINKS = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE20nnn/GSE20156/miniml/GSE20156_family.xml.tgz
+OWL_FILE = /Users/sharanya/Documents/ThesisWorkV2/Ontologies/RNASeq.owl
+MASTER_INDEX_FILE = /Users/sharanya/Documents/OBDI/ObDISupportFiles/RNASeqMappingFile.txt
+RAW_FILE_FOLDER = /Users/sharanya/Documents/OBDI/ObDIOutput
+GFF3_FILE = ftp://ftp.broadinstitute.org/pub/genepattern/rna_seq/referenceAnnotation/gtf/Homo_sapiens_UCSC_hg18.gtf
+GENE_PATTERN_GCT_FILE = /Users/sharanya/Documents/OBDI/ObDIOutput/AllSamples.gct
+OPTIONAL_FEATURE_LIST = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/RNASeq/FeatureListRNASeq.txt
+WEKA_ARFF_FILE = /Users/sharanya/Documents/OBDI/ObDIOutput/RNASeqFeatureSel.arff
+MLFLEX_EXPERIMENT_FILE = /Users/sharanya/Documents/ThesisWorkV2/ThesisData/RNASeqExperiment.txt
+MLFLEX_JAR_FILE = /Users/sharanya/Documents/ML-Flex/mlflex.jar

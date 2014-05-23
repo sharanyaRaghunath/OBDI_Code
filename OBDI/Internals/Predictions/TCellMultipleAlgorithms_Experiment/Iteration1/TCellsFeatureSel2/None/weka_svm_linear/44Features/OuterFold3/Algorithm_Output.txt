@@ -1,0 +1,227 @@
+Zero Weights processed. Default weights will be used
+...*
+optimization finished, #iter = 156
+nu = 2.0228288252272267E-7
+obj = -5.058461649229222E-6, rho = 1.1841020134762528
+nSV = 7, nBSV = 0
+Total nSV = 7
+...*
+optimization finished, #iter = 159
+nu = 2.2639040762705902E-7
+obj = -5.660879820057221E-6, rho = 1.401152811257587
+nSV = 6, nBSV = 0
+Total nSV = 6
+.*
+optimization finished, #iter = 61
+nu = 2.0212259100556383E-7
+obj = -4.953435024382304E-6, rho = 1.3536159286820353
+nSV = 4, nBSV = 0
+Total nSV = 4
+...*
+optimization finished, #iter = 186
+nu = 1.896926632647138E-7
+obj = -4.743200686618848E-6, rho = 1.7260646201175955
+nSV = 7, nBSV = 0
+Total nSV = 7
+...*
+optimization finished, #iter = 170
+nu = 2.3578350148584474E-7
+obj = -5.777839875507383E-6, rho = 1.4930167412643165
+nSV = 7, nBSV = 0
+Total nSV = 7
+.*
+optimization finished, #iter = 93
+nu = 1.864345740785791E-7
+obj = -5.7778392947651515E-6, rho = -1.4938101466437352
+nSV = 7, nBSV = 0
+....*
+optimization finished, #iter = 80
+nu = 2.2452559281527032E-6
+obj = -2.2453601978316465E-5, rho = -1.444365445216515
+nSV = 5, nBSV = 0
+Total nSV = 5
+*
+optimization finished, #iter = 10
+nu = 2.1825536601783776E-6
+obj = -2.074265177755226E-5, rho = 1.1460155694771403
+nSV = 3, nBSV = 0
+Total nSV = 3
+....*
+optimization finished, #iter = 84
+nu = 2.3636048244697253E-6
+obj = -2.2453603977410636E-5, rho = 1.4434771915611349
+nSV = 5, nBSV = 0
+Total nSV = 5
+....*
+optimization finished, #iter = 84
+nu = 9.098006426195357E-7
+obj = -8.646391478795119E-6, rho = 1.2154162102230677
+nSV = 4, nBSV = 0
+Total nSV = 4
+....*
+optimization finished, #iter = 92
+nu = 2.363799333731765E-6
+obj = -2.245360319289004E-5, rho = 1.4433649288317931
+nSV = 5, nBSV = 0
+Total nSV = 5
+.*
+optimization finished, #iter = 46
+nu = 1.8708678817478266E-6
+obj = -2.2453601230806772E-5, rho = -1.444333230508411
+nSV = 5, nBSV = 0
+.*
+optimization finished, #iter = 27
+nu = 1.7625291363902708E-7
+obj = -1.4102942462563992E-6, rho = 1.2745745632004937
+nSV = 5, nBSV = 0
+Total nSV = 5
+..*
+optimization finished, #iter = 45
+nu = 1.393603537514024E-7
+obj = -1.114918535372694E-6, rho = 1.0110440721853664
+nSV = 6, nBSV = 0
+Total nSV = 6
+..*
+optimization finished, #iter = 40
+nu = 1.6421846157387374E-7
+obj = -1.3141113564897796E-6, rho = 1.3294858069922633
+nSV = 4, nBSV = 0
+Total nSV = 4
+.*
+optimization finished, #iter = 25
+nu = 1.7626121641951703E-7
+obj = -1.410294151064985E-6, rho = 1.2747317374024971
+nSV = 5, nBSV = 0
+Total nSV = 5
+.*
+optimization finished, #iter = 29
+nu = 1.754454706610137E-7
+obj = -1.4037921529566296E-6, rho = 1.2882815506654073
+nSV = 5, nBSV = 0
+Total nSV = 5
+.*
+optimization finished, #iter = 23
+nu = 1.4102362641326886E-7
+obj = -1.4102943964849506E-6, rho = -1.2748957934799976
+nSV = 5, nBSV = 0
+......*
+optimization finished, #iter = 329
+nu = 1.6190490711571707E-6
+obj = -4.29073714707005E-5, rho = -2.5708986507469684
+nSV = 13, nBSV = 0
+Total nSV = 13
+..*
+optimization finished, #iter = 153
+nu = 1.1065547099668562E-6
+obj = -2.9331128819133157E-5, rho = 0.7746105166702175
+nSV = 10, nBSV = 0
+Total nSV = 10
+..*
+optimization finished, #iter = 128
+nu = 9.075818489141223E-7
+obj = -2.405225150718004E-5, rho = 1.9795131700534219
+nSV = 12, nBSV = 0
+Total nSV = 12
+...*
+optimization finished, #iter = 185
+nu = 9.230287805898099E-7
+obj = -2.4463648809841735E-5, rho = 1.828898192003021
+nSV = 11, nBSV = 0
+Total nSV = 11
+....*
+optimization finished, #iter = 210
+nu = 1.3221985857493144E-6
+obj = -3.438635632711181E-5, rho = 3.2789298583191893
+nSV = 11, nBSV = 0
+Total nSV = 11
+.....*
+optimization finished, #iter = 386
+nu = 1.3007063987585085E-6
+obj = -4.29288679959374E-5, rho = 2.589126918581049
+nSV = 14, nBSV = 0
+.....*
+optimization finished, #iter = 268
+nu = 4.151225373476437E-7
+obj = -1.037786332309372E-5, rho = 0.8472811321410126
+nSV = 9, nBSV = 0
+Total nSV = 9
+....*
+optimization finished, #iter = 206
+nu = 5.009408866110979E-7
+obj = -1.2522544213888153E-5, rho = 1.425574775327628
+nSV = 10, nBSV = 0
+Total nSV = 10
+........*
+optimization finished, #iter = 427
+nu = 4.808903238636882E-7
+obj = -1.1781522147546889E-5, rho = 0.7523546633892607
+nSV = 12, nBSV = 0
+Total nSV = 12
+...*
+optimization finished, #iter = 180
+nu = 3.7431798199252347E-7
+obj = -9.357923599936974E-6, rho = 1.5937144138829633
+nSV = 10, nBSV = 0
+Total nSV = 10
+...*
+optimization finished, #iter = 170
+nu = 5.654297637585877E-7
+obj = -1.385117594087344E-5, rho = 0.7391629394236287
+nSV = 11, nBSV = 0
+Total nSV = 11
+..*
+optimization finished, #iter = 180
+nu = 4.837062065727906E-7
+obj = -1.4994312687994969E-5, rho = 1.2001400194397362
+nSV = 11, nBSV = 0
+..*
+optimization finished, #iter = 45
+nu = 9.667830117578549E-7
+obj = -9.669475135351512E-6, rho = -0.8771385223327383
+nSV = 7, nBSV = 0
+Total nSV = 7
+.........*
+optimization finished, #iter = 181
+nu = 5.411481349691315E-6
+obj = -5.141644695331051E-5, rho = -3.16705706007782
+nSV = 10, nBSV = 0
+Total nSV = 10
+................*
+optimization finished, #iter = 318
+nu = 2.196956149266587E-6
+obj = -2.087369352641343E-5, rho = -1.8045961557807435
+nSV = 9, nBSV = 0
+Total nSV = 9
+........*
+optimization finished, #iter = 159
+nu = 5.933987304802302E-6
+obj = -5.638130413522253E-5, rho = -2.7178991560363075
+nSV = 8, nBSV = 0
+Total nSV = 8
+...........*
+optimization finished, #iter = 224
+nu = 5.400440276495413E-6
+obj = -5.131674502468336E-5, rho = -3.571446619060883
+nSV = 8, nBSV = 0
+Total nSV = 8
+......*
+optimization finished, #iter = 160
+nu = 4.716949655744168E-6
+obj = -5.6606992364902444E-5, rho = -3.5764169133784014
+nSV = 9, nBSV = 0
+Total nSV = 28
+
+
+=== Predictions on test data ===
+
+ inst#     actual  predicted error distribution
+     1 3:conventi 3:conventi       0.01,0.007,*0.98,0.002 
+     2 4:naiveTce 4:naiveTce       0.064,0.09,0.146,*0.7 
+     3 3:conventi 3:conventi       0.033,0.009,*0.953,0.004 
+     4 3:conventi    2:Tregs   +   0.096,*0.396,0.278,0.231 
+     5 3:conventi    2:Tregs   +   0.104,*0.386,0.356,0.155 
+     6    2:Tregs    2:Tregs       0.028,*0.813,0.124,0.035 
+     7 3:conventi 3:conventi       0.01,0.008,*0.979,0.003 
+     8    2:Tregs    2:Tregs       0.165,*0.677,0.1,0.057 
+     9 3:conventi 3:conventi       0.024,0.136,*0.836,0.005 
+    10    1:Teffs 3:conventi   +   0.117,0.096,*0.777,0.01
